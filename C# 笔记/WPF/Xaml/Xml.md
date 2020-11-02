@@ -1,9 +1,8 @@
-# Xml在xaml中
+# Xml在xaml中的使用
 
 ## 如何:绑定到XDocument, XElement，或LINQ为XML查询结果
 
-XPath
-
+Xml中XElement本质是XmlElement对象，隐式的转化为string类型。
 
 ``` cs
 <TabControl>
