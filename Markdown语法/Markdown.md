@@ -24,4 +24,4 @@ https://www.runoob.com/markdown/md-tutorial.html
 
 ---
 以上代码显示结果如下：  
-![1](image/1.png)
+![1](./image/1.png)
