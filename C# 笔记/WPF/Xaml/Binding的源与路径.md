@@ -197,4 +197,17 @@ this.listViewStudents.ItemsSource=
 　　};
 ```
  
+
+## 8.绑定自身
+
+```cs
+<MultiDataTrigger>
+     <MultiDataTrigger.Conditions>
+          <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsThreeState}" Value="True" />
+          <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsChecked}" Value="{x:Null}" />
+     </MultiDataTrigger.Conditions>
+     <Setter Property="Foreground" Value="{DynamicResource ButtonTextDisabled}" />
+</MultiDataTrigger>
+```
+
 分类: WPF笔记
